@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examen aplicacions web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="inde"><h1 class="titulogoya">Premis GOYA</h1></a>   
+       </header>
+       <nav>
+           <p class="navegacion"> <a href="index.html">Ediciones Anteriores</a> - <a href="index.html">Nominats</a> - <a href="contacte.html">Contacte</a></p>
+       </nav>
+       <main>
+        
+        <div class="contacte_pagina">
+            <h3>Contacte</h3>
+            <form action="votacio.php" method="post">
+            <h3>Nom <input class="nom" type="text" id="nom" placeholder="Nom"> Cognoms <input type="text" id="cognom" placeholder="Cognom"></h3>
+            <h3>Peli favorita <select  id="peli_fav"> <option value="Alcarras">Alcarras</option><option value="As Bestas">As Bestas</option> <option value="Cinco Lobitos"> Cinco Lobitos</option> <option value="La Maternal">La Maternal</option> <option value="Modelo 77">Modelo 77</option></select> Puntuacio<input type="number" min="1" max="10"  id="puntuacio"></h3>
+            <h3>Opinio <textarea id="opinio"></textarea></h3> <br><br>
+            <input type="submit" value="Votar" onclick="votacio">
+            </form>
+        </div>
+       </main>    
+</body>
+</html>

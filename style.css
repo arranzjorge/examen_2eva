@@ -1,0 +1,107 @@
+h1.titulogoya{
+    background-color: lightpink;
+    color: blue;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p.navegacion{
+    color: royalblue;
+    background-color: aliceblue;
+    text-align: center;
+}
+a{
+    color: royalblue;
+}
+
+a:hover{
+    background-color: yellow;
+    font-weight: bolder;
+}
+
+img.ea{
+    height: 240px;
+    width: 240px;
+    position: relative;
+}
+
+div.ea{
+    background-color: lightsalmon;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    left: 30px;
+    top: 60px;
+    z-index: 1;
+}
+
+p.ea{
+    color: blue;
+}
+
+img.nomi{
+    height: 240px;
+    width: 240px;
+    position: relative;
+}
+
+div.nomi{
+    background-color: lightseagreen;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    left: 250px;
+    top: -190px;
+    z-index: 3;
+}
+
+p.nomi{
+    color: red;
+}
+
+img.contacte{
+    height: 240px;
+    width: 240px;
+    position: relative;
+}
+
+div.contacte{
+    background-color: lightsalmon;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    left: 500px;
+    top: -400px;
+    z-index: 3;
+}
+
+p.contacte{
+    color: blue;
+}
+
+p.pie{
+    background-color: yellow;
+    color: blue;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+    font-weight: lighter;
+}
+
+div.contacte_pagina{
+    color: blue;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    background-color: lightsalmon;
+}
+
+textarea{
+    height: 200px;
+    width: 270px;
+}
